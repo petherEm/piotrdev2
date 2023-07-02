@@ -19,84 +19,114 @@ const workSlides = {
     {
       images: [
         {
+          title: "Better GPT",
+          path: "/demos/bettergpt.png",
+          link: "https://bettergpt.vabank.dev",
+          stack: "React, Next.js, TailwindCSS, Firebase, NextAuth",
+        },
+        {
+          title: "Car rental",
+          path: "/demos/carshow.png",
+          link: "https://carshow-kappa.vercel.app/",
+          stack: "React, Next.js, TailwindCSS, RapidApi",
+        },
+
+        {
+          title: "Map Inpost",
+          path: "/demos/mapinpost.png",
+          link: "https://inpostfinder.vabank.dev/map",
+          stack: "React, Next.js, TailwindCSS, Firebase",
+        },
+        {
+          title: "My Training",
+          path: "/demos/corsetorse.png",
+          link: "https://mytraining.vabank.me/",
+          stack: "React, Next.js, TailwindCSS, MongoDB, NextAuth",
+        },
+      ],
+    },
+    {
+      images: [
+        {
           title: "Netflix clone",
           path: "/demos/netflix.png",
-          link: "https://www.piotrmaciejewski.com",
+          link: "https://newnetflix-5355c.web.app/",
           stack: "React, Next.js, TailwindCSS, Firebase",
         },
         {
           title: "Pizza online",
           path: "/demos/pizzadelivery.png",
-          link: "https://www.piotrmaciejewski.com",
-          stack: "React, Next.js, TailwindCSS, Firebase",
+          link: "https://pizzadelivery-five.vercel.app/",
+          stack: "React, Next.js, TailwindCSS",
         },
         {
           title: "AI weather app",
           path: "/demos/weatherai.png",
-          link: "https://www.piotrmaciejewski.com",
-          stack: "React, Next.js, TailwindCSS, Firebase",
+          link: "https://aiweather.vabank.dev/",
+          stack: "React, Next.js, TailwindCSS",
         },
         {
           title: "Payintel",
           path: "/demos/payintel.png",
-          link: "https://www.piotrmaciejewski.com",
-          stack: "React, Next.js, TailwindCSS, Firebase",
+          link: "https://pay-intel.vercel.app/",
+          stack: "React, Next.js, TailwindCSS, Firebase, NextAuth",
         },
       ],
     },
+
     {
       images: [
         {
-          title: "Better GPT",
-          path: "/demos/bettergpt.png",
-          link: "https://www.piotrmaciejewski.com",
-          stack: "React, Next.js, TailwindCSS, Firebase",
-        },
-        {
-          title: "Hoobank",
-          path: "/demos/hoobank.png",
-          link: "https://www.piotrmaciejewski.com",
-          stack: "React, Next.js, TailwindCSS, Firebase",
-        },
-        {
-          title: "Map Inpost",
-          path: "/demos/mapinpost.png",
-          link: "https://www.piotrmaciejewski.com",
-          stack: "React, Next.js, TailwindCSS, Firebase",
-        },
-        {
-          title: "Airbnb clone",
-          path: "/demos/airbnb.png",
-          link: "https://www.piotrmaciejewski.com",
-          stack: "React, Next.js, TailwindCSS, Firebase",
-        },
-      ],
-    },
-    {
-      images: [
-        {
-          title: "Map Inpost",
-          path: "/demos/mapinpost.png",
-          link: "https://www.piotrmaciejewski.com",
-          stack: "React, Next.js, TailwindCSS, Firebase",
+          title: "WU clone",
+          path: "/demos/wuclone.png",
+          link: "https://truewubankpl.vercel.app/en",
+          stack: "React, Next.js, TailwindCSS, NextAuth",
         },
         {
           title: "eCommerce",
           path: "/demos/electrocommerce.png",
-          link: "https://www.piotrmaciejewski.com",
+          link: "https://nextcommerce-one-mu.vercel.app/",
           stack: "React, Next.js, TailwindCSS, Firebase",
         },
         {
           title: "Amazon clone",
           path: "/demos/amazonclone.png",
-          link: "https://www.piotrmaciejewski.com",
-          stack: "React, Next.js, TailwindCSS, Firebase",
+          link: "https://amazon4-two.vercel.app/",
+          stack: "React, Next.js, TailwindCSS, Firebase, NextAuth",
         },
         {
           title: "Hoobank",
           path: "/demos/hoobank.png",
           link: "https://www.piotrmaciejewski.com",
+          stack: "React, Next.js, TailwindCSS",
+        },
+      ],
+    },
+    {
+      images: [
+        {
+          title: "AMPM Hotel",
+          path: "/demos/ampmhotel.png",
+          link: "https://ampmhotel.vercel.app/",
+          stack: "React, Next.js, TailwindCSS",
+        },
+        {
+          title: "Hoobank",
+          path: "/demos/hoobank.png",
+          link: "https://bankapp-seven.vercel.app/",
           stack: "React, Next.js, TailwindCSS, Firebase",
+        },
+        {
+          title: "Airbnb clone",
+          path: "/demos/airbnb.png",
+          link: "https://arbb.vercel.app/",
+          stack: "React, Next.js, TailwindCSS, Firebase",
+        },
+        {
+          title: "My previous Portfolio",
+          path: "/demos/prevportfolio.png",
+          link: "https://newportfolionext-ktkr.vercel.app/",
+          stack: "React, Next.js, TailwindCSS, Sanity.io",
         },
       ],
     },
@@ -109,7 +139,7 @@ const WorkSlider = () => {
       spaceBetween={10}
       pagination={{ clickable: true }}
       modules={[Pagination]}
-      className="sm:h-[480px] md:h-[280px]  xl:h-[640px]"
+      className="sm:h-[480px] md:h-[380px]  xl:h-[640px]"
     >
       {workSlides.slides.map((slide, index) => {
         return (
@@ -124,7 +154,7 @@ const WorkSlider = () => {
                     key={index}
                   >
                     <div className="relative rounded-lg overflow-hidden flex items-center justify-center group">
-                      <div className="flex items-center justify-center relative overflow-hidden group h-52 w-full ">
+                      <div className="flex items-center justify-center relative overflow-hidden group h-64 w-full ">
                         <Image
                           src={image.path}
                           width={500}
@@ -136,7 +166,6 @@ const WorkSlider = () => {
                         {/* title */}
                         <div className="absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:xl:-translate-y-20 transition-all duration-300">
                           <div className="flex items-center gap-x-2 text-[13px] tracking-[0.2em]">
-                           
                             <div className="translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150">
                               {image.stack}
                             </div>
