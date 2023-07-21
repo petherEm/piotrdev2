@@ -32,7 +32,7 @@ import CountUp from "react-countup";
 //  data
 const aboutData = [
   {
-    title: "Tech Stack",
+    title: "Stack",
     info: [
       {
         title: "Web Development",
