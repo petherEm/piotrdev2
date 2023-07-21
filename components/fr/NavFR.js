@@ -13,10 +13,10 @@ import Link from "next/link";
 import { useRouter, usePathname } from "next/navigation";
 
 export const navData = [
-  { name: "home", path: "/", icon: <HiHome /> },
-  { name: "about", path: "/about", icon: <HiUser /> },
-  { name: "services", path: "/services", icon: <HiRectangleGroup /> },
-  { name: "work", path: "/work", icon: <HiViewColumns /> },
+  { name: "home", path: "/fr", icon: <HiHome /> },
+  { name: "about", path: "/fr/about", icon: <HiUser /> },
+  { name: "services", path: "/fr/services", icon: <HiRectangleGroup /> },
+  { name: "work", path: "/fr/work", icon: <HiViewColumns /> },
   // {
   //   name: "testimonials",
   //   path: "/testimonials",
@@ -24,12 +24,12 @@ export const navData = [
   // },
   {
     name: "contact",
-    path: "/contact",
+    path: "/fr/contact",
     icon: <HiEnvelope />,
   },
 ];
 
-const Nav = () => {
+const NavFR = () => {
   const router = useRouter();
   const pathname = usePathname();
 
@@ -64,4 +64,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default NavFR;

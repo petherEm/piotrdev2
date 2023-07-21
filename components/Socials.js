@@ -1,4 +1,5 @@
 import Link from "next/link";
+import "/node_modules/flag-icons/css/flag-icons.min.css";
 
 //icons
 
@@ -60,6 +61,23 @@ const Socials = () => {
       >
         Blog
       </Link>
+      {/* Languages */}
+      <div className="flex items-center space-x-2">
+            <Link
+              href="/fr"
+             
+              className="hover:text-accent transition-all duration-300 text-sm md:text-md"
+            >
+              <span className="fi fi-fr text-sm"></span>
+            </Link>
+            <Link
+              href="/"
+              
+              className="hover:text-accent transition-all duration-300 text-sm md:text-md"
+            >
+              <span className="fi fi-gb text-sm"></span>
+            </Link>
+          </div>
     </div>
   );
 };

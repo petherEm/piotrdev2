@@ -22,7 +22,7 @@ const Work = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="h2 mt-6 xl:mt-12"
+              className="h2 mt-20 md:mt-10 xl:mt-12"
             >
               Selected projects
               <span className="text-accent">.</span>

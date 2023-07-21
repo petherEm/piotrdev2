@@ -35,7 +35,7 @@ const aboutData = [
     title: "Tech Stack",
     info: [
       {
-        title: "Web Development",
+        title: "Développement Web",
         icons: [
           <FaPython />,
           <FaJs />,
@@ -46,13 +46,13 @@ const aboutData = [
         ],
       },
       {
-        title: "Data Science",
+        title: "Science des données",
         icons: [<FaPython />, <SiPandas />, <SiNumpy />, <SiOpenai />],
       },
     ],
   },
   {
-    title: "experience",
+    title: "L'expérience",
     info: [
       {
         title: "Digital Bank, Country Lead - Western Union",
@@ -85,7 +85,7 @@ const aboutData = [
     ],
   },
   {
-    title: "Education",
+    title: "L'éducation",
     info: [
       {
         title:
@@ -118,7 +118,7 @@ const aboutData = [
   },
 ];
 
-const About = () => {
+const AboutFR = () => {
   const [index, setIndex] = useState(0);
 
   return (
@@ -142,8 +142,8 @@ const About = () => {
             exit="hidden"
             className="h2"
           >
-            <span className="text-accent"> Digital Excellence</span> Through
-            Expertise and Experience.
+            <span className="text-accent">L'excellence numérique </span>
+            par l'expertise et l'expérience.
           </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.4)}
@@ -152,10 +152,11 @@ const About = () => {
             exit="hidden"
             className="max-w-[500px] text-[14px] md:text-[16px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            With my butique studio, I bring a wealth of success and expertise
-            from my thriving career in Fortune 500 companies. With a proven
-            track record of delivering exceptional results, I am poised to bring
-            the same level of excellence and drive to every project I undertake.
+            Avec mon studio digitale, j'apporte une richesse de succès et
+            d'expertise de ma carrière florissante au sein de sociétés Fortune
+            500. Avec une expérience résultats exceptionnels, je suis prête à
+            apporter le même niveau d'excellence et de le même niveau
+            d'excellence et de dynamisme à chaque projet que j'entreprendrai.
           </motion.p>
           {/* counter */}
           <motion.div
@@ -255,4 +256,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutFR;

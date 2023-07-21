@@ -21,8 +21,8 @@ export default function Home() {
             animate="show"
             exit="hidden"
           >
-            Empower Your Business <br /> For The{" "}
-            <span className="text-accent">Next Digital Era</span>
+            Ensemble dans <br /> la prochaine <br />
+            <span className="text-accent">ère numérique </span>
           </motion.h1>
           <motion.p
             variants={fadeIn("down", 0.3)}
@@ -31,11 +31,12 @@ export default function Home() {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Unlock Your Digital Success with an Experienced Full Stack Developer
-            and Senior Leader in the Financial Industry (Fortune 500) with over
-            15 years of experience at Your Side. Leverage my expertise for
-            Seamless Web Development, Data Science, Product Strategy, and
-            Unparalleled Business Growth.
+            Débloquez votre succès numérique avec un développeur Full Stack
+            expérimenté et un leader senior dans l'industrie financière (Fortune
+            500) avec plus de 15 ans d'expérience à vos côtés. Tirez parti de
+            mon expertise pour un développement Web transparent, la science des
+            données, la stratégie produit et une croissance commerciale
+            inégalée.
           </motion.p>
 
           {/* btn */}

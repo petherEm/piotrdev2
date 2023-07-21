@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import ServiceSliderFR from "@/components/fr/ServiceSliderFR";
 import ServiceSlider from "@/components/ServiceSlider";
 import Bulb from "@/components/Bulb";
 
@@ -11,7 +12,7 @@ import Circles from "@/components/Circles";
 import { motion } from "framer-motion";
 import { fadeIn } from "@/variants";
 
-const Services = () => {
+const ServicesFR = () => {
   return (
     <div className="h-full bg-primary/30 py-36 flex items-center overflow-y-auto">
       <div className="container mx-auto overflow-y-auto">
@@ -25,7 +26,7 @@ const Services = () => {
               exit="hidden"
               className="h2 mt-4 xl:mt-8"
             >
-              My services
+              Mes services
               <span className="text-accent">.</span>
             </motion.h2>
             <motion.p
@@ -35,14 +36,16 @@ const Services = () => {
               exit="hidden"
               className="mb-4 text-[14px] md:text-[16px] max-w-[400px] mx-auto lg:mx-0"
             >
-              I am a Full Stack developer leveraging the latest technologies to
-              build and deploy scalable web applications. <br />I also provide
-              consulting services in business strategy design leveraging the
-              power of AI to unlock new opportunities for your business. By
-              harnessing AI technologies along with deep data analysis, I can
-              assist you in optimizing processes, enhancing decision-making, and
-              driving innovation, enabling you to stay at the forefront of the
-              digital landscape.
+              Je suis un développeur Full Stack qui utilise les dernières
+              technologies pour construire et déployer des applications web
+              évolutives. <br />Je propose également des services de conseil en
+              conception de stratégies d'entreprise en exploitant la puissance
+              de l'IA pour ouvrir de nouvelles perspectives à votre entreprise.
+              En exploitant les technologies de l'IA avec une analyse
+              approfondie des données, je peux vous aider à optimiser les
+              processus, à améliorer la prise de décision et à stimuler
+              l'innovation, ce qui vous permet de rester à la pointe du paysage
+              numérique.
             </motion.p>
           </div>
           {/* slider */}
@@ -53,7 +56,7 @@ const Services = () => {
             exit="hidden"
             className="w-full xl:max-w-[65%]"
           >
-            <ServiceSlider />
+            <ServiceSliderFR />
           </motion.div>
         </div>
       </div>
@@ -61,4 +64,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default ServicesFR;

@@ -22,26 +22,26 @@ const workSlides = {
           title: "Better GPT",
           path: "/demos/bettergpt.png",
           link: "https://bettergpt.vabank.dev",
-          stack: "React, Next.js, TailwindCSS, Firebase, NextAuth",
+          stack: "OpenAI, Next.js, TailwindCSS, Firebase, NextAuth",
         },
         {
           title: "Car rental",
           path: "/demos/carshow.png",
           link: "https://carshow-kappa.vercel.app/",
-          stack: "React, Next.js, TailwindCSS, RapidApi",
+          stack: "React/Next.js, TailwindCSS, RapidApi",
         },
 
         {
           title: "Map Inpost",
           path: "/demos/mapinpost.png",
           link: "https://inpostfinder.vabank.dev/map",
-          stack: "React, Next.js, TailwindCSS, Firebase",
+          stack: "DeckGL, Next.js, TailwindCSS, Firebase",
         },
         {
           title: "My Training",
           path: "/demos/corsetorse.png",
           link: "https://mytraining.vabank.me/",
-          stack: "React, Next.js, TailwindCSS, MongoDB, NextAuth",
+          stack: "OpenAI, Next.js, TailwindCSS, MongoDB, NextAuth",
         },
       ],
     },
@@ -150,8 +150,9 @@ const WorkSlider = () => {
                   <Link
                     href={image.link}
                     traget="_blank"
-                    rel="noopener noreferrer"
                     key={index}
+                    noopener
+                    noreferrer
                   >
                     <div className="relative rounded-lg overflow-hidden flex items-center justify-center group">
                       <div className="flex items-center justify-center relative overflow-hidden group h-64 w-full ">

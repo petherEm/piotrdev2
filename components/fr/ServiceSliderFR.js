@@ -20,25 +20,25 @@ import { FreeMode, Pagination } from "swiper";
 const serviceData = [
   {
     icon: <RxDesktop />,
-    title: "Web Development",
+    title: "Développement Web",
     description:
-      "I use the latest reliable stack (React/Next.js, Tailwind CSS, Node.js, Sanity, Shopify and few more) to build and deploy scalable web applications.",
+      "J'utilise la dernière pile fiable (React/Next.js, Tailwind CSS, Node.js, Sanity, Shopify et quelques autres) pour construire et déployer des applications web évolutives.",
   },
   {
     icon: <RxCrop />,
-    title: "Data Analysis",
+    title: "Analyse des données",
     description:
-      "Conducting innovative researches,  automating analysis, visualising the data and building comprehensive automated reports.",
+      "Mener des recherches innovantes, automatiser les analyses, visualiser les données et élaborer des rapports automatisés complets.",
   },
   {
     icon: <RxPencil2 />,
-    title: "Business Strategy",
+    title: "Stratégie commerciale",
     description:
-      "I design data-driven business strategy, leveraging insights and analytics to craft strategies that fuel growth, optimize operations, and drive sustainable competitive advantage.",
+      "Je conçois des stratégies commerciales basées sur les données, en tirant parti des connaissances et des analyses pour élaborer des stratégies qui alimentent la croissance, optimisent les opérations et génèrent un avantage concurrentiel durable.",
   },
 ];
 
-const ServiceSlider = () => {
+const ServiceSliderFR = () => {
   return (
     <Swiper
       breakpoints={{
@@ -78,4 +78,4 @@ const ServiceSlider = () => {
   );
 };
 
-export default ServiceSlider;
+export default ServiceSliderFR;
