@@ -22,7 +22,7 @@ const WorkFR = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="h2 mt-20 md:mt-10 xl:mt-12"
+              className="h2 mt-36 md:mt-10 xl:mt-12"
             >
               Projets sélectionnés
               <span className="text-accent">.</span>

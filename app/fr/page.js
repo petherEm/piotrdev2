@@ -32,7 +32,7 @@ export default function Home() {
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
             Débloquez votre succès numérique avec un développeur Full Stack
-            expérimenté et un leader senior dans l'industrie financière (Fortune
+            expérimenté et un leader dans l'industrie financière (Fortune
             500) avec plus de 15 ans d'expérience à vos côtés. Tirez parti de
             mon expertise pour un développement Web transparent, la science des
             données, la stratégie produit et une croissance commerciale

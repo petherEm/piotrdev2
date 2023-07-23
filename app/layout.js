@@ -15,9 +15,9 @@ const sora = Sora({
 });
 
 export const metadata = {
-  title: "PiotrDev Modern Web Dev",
+  title: "Vabank.dev | Modern Web Development & Data Science",
   description:
-    "Portfolio, Web Development, OpenAI, Artificial Intelligence, Geo Mapping, Maps, Competition, Data Science, Next.js, TailwindCSS, React, Node.js, MongoDB, Pythoh, Pandas, Numpy",
+    "Data Science, Web Development, OpenAI, Artificial Intelligence, Geo Mapping, Maps, Competition, Data Science, Next.js, TailwindCSS, React, Node.js, MongoDB, Pythoh, Pandas, Numpy, Portfolio",
 };
 
 export default function RootLayout({ children }) {

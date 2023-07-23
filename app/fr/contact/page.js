@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { BsArrowRight } from "react-icons/bs";
 import { motion } from "framer-motion";
 import { fadeIn } from "@/variants";
+import SocialsShort from "@/components/SocialsShort";
 
 const ContactFR = () => {
   const [name, setName] = useState("");
@@ -38,8 +39,17 @@ const ContactFR = () => {
             exit="hidden"
             className="h2 text-center mb-12"
           >
-            Connectez<span></span>
+            Connectez<span>-vous</span>
           </motion.h2>
+          <motion.div
+            variants={fadeIn("down", 0.2)}
+            initial="hidden"
+            animate="show"
+            exit="hidden"
+            className="h2 text-center mb-12 flex justify-center"
+          >
+            <SocialsShort />
+          </motion.div>
           <motion.form
             variants={fadeIn("up", 0.4)}
             initial="hidden"
