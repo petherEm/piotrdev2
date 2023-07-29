@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
         className={`page bg-black text-white bg-cover bg-no-repeat ${sora.variable} font-sora relative`}
       >
         {/* <TopLeftImg /> */}
-        <Nav />
+
         <Header />
         {children}
       </body>

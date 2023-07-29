@@ -10,9 +10,9 @@ import Circles from "@/components/Circles";
 import { motion } from "framer-motion";
 import { fadeIn } from "@/variants";
 
-const WorkFR = () => {
+const Work = () => {
   return (
-    <div className="h-full bg-primary/30 py-36 flex items-center overflow-y-auto">
+    <div className="h-full bg-primary/30 py-36 flex items-center overflow-y-scroll no-scrollbar">
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-x-8 mt-24">
           {/* text */}
@@ -22,9 +22,9 @@ const WorkFR = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="h2 mt-36 md:mt-10 xl:mt-12"
+              className="h2 mt-20 md:mt-10 xl:mt-12"
             >
-              Projets sélectionnés
+              Selected projects
               <span className="text-accent">.</span>
             </motion.h2>
             <motion.p
@@ -32,18 +32,16 @@ const WorkFR = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="text-[14px] md:text-[16px] md:mb-4 max-w-[400px] mx-auto lg:mx-0"
+              className="text-[12px] md:text-[14px] md:mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Vous trouverez une sélection de mes travaux en freelance, mettant
-              en valeur mon expertise en développement web{" "}
+              Featuring a curated selection of my freelance work, highlighting
+              my expertise in web development{" "}
               <span className="text-white">
                 (JS, React.js, Next.js, TailwindCSS, Node.js, Express.js)
               </span>
-              . Bien que je ne sois pas en mesure de présenter des projets
-              d'entreprise en raison d'accords de confidentialité, vous pouvez
-              parcourir les projets de formation. de confidentialité, vous
-              pouvez parcourir les projets de formation et les projets freelance
-              qui démontrent mes compétences.
+              . While I am unable to showcase corporate projects due to
+              confidentiality agreements, you can browse through the training
+              and freelance projects that demonstrate my skills.
             </motion.p>
           </div>
           {/* slider */}
@@ -64,4 +62,4 @@ const WorkFR = () => {
   );
 };
 
-export default WorkFR;
+export default Work;

@@ -13,7 +13,7 @@ import {
 
 const Socials = () => {
   return (
-    <div className="flex items-center gap-x-5 text-lg mt-4 md:mt-0">
+    <div className="flex items-center gap-x-2 md:gap-x-5 text-lg mt-4 md:mt-0">
       {/* <Link
         href="/"
         className="hover:text-accent transition-all duration-300 text-lg md:text-xl"
@@ -24,7 +24,7 @@ const Socials = () => {
         href="https://github.com/petherEm"
         rel="noopener noreferrer"
         target="_blank"
-        className="hover:text-accent transition-all duration-300 text-lg md:text-xl"
+        className="hover:text-accent transition-all duration-300 text-sm md:text-xl"
       >
         <RiGithubLine />
       </Link>
@@ -32,7 +32,7 @@ const Socials = () => {
         href="https://www.instagram.com/piotrek_dev/"
         rel="noopener noreferrer"
         target="_blank"
-        className="hover:text-accent transition-all duration-300 text-lg md:text-xl"
+        className="hover:text-accent transition-all duration-300 text-sm md:text-xl"
       >
         <RiInstagramLine />
       </Link>
@@ -40,7 +40,7 @@ const Socials = () => {
         href="https://www.linkedin.com/in/piotrek-maciejewski/"
         rel="noopener noreferrer"
         target="_blank"
-        className="hover:text-accent transition-all duration-300 text-lg md:text-xl"
+        className="hover:text-accent transition-all duration-300 text-sm md:text-xl"
       >
         <RiLinkedinLine />
       </Link>
@@ -49,7 +49,7 @@ const Socials = () => {
         href="https://medium.com/@pether.maciejewski"
         rel="noopener noreferrer"
         target="_blank"
-        className="hover:text-accent transition-all duration-300 text-lg md:text-xl"
+        className="hover:text-accent transition-all duration-300 text-sm md:text-xl"
       >
         <RiMediumLine />
       </Link>
@@ -57,7 +57,7 @@ const Socials = () => {
         href="https://www.piotrmaciejewski.com/articles"
         rel="noopener noreferrer"
         target="_blank"
-        className="hover:text-accent transition-all duration-300 text-sm md:text-md"
+        className="hover:text-accent transition-all duration-300 text-[10px] md:text-md"
       >
         Blog
       </Link>

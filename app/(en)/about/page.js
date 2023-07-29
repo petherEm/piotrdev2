@@ -35,7 +35,7 @@ const aboutData = [
     title: "Stack",
     info: [
       {
-        title: "Développement Web",
+        title: "Web Development",
         icons: [
           <FaPython />,
           <FaJs />,
@@ -46,13 +46,13 @@ const aboutData = [
         ],
       },
       {
-        title: "Science des données",
+        title: "Data Science",
         icons: [<FaPython />, <SiPandas />, <SiNumpy />, <SiOpenai />],
       },
     ],
   },
   {
-    title: "L'expérience",
+    title: "experience",
     info: [
       {
         title: "Digital Bank, Country Lead - Western Union",
@@ -85,7 +85,7 @@ const aboutData = [
     ],
   },
   {
-    title: "L'éducation",
+    title: "Education",
     info: [
       {
         title:
@@ -118,11 +118,11 @@ const aboutData = [
   },
 ];
 
-const AboutFR = () => {
+const About = () => {
   const [index, setIndex] = useState(0);
 
   return (
-    <div className="h-full bg-primary/30 py-18 md:py-22 text-center xl:text-left overflow-y-auto">
+    <div className="h-full bg-primary/30 py-18 md:py-22 text-center xl:text-left overflow-y-scroll no-scrollbar">
       {/* <motion.div
         variants={fadeIn("right", 0.2)}
         initial="hidden"
@@ -132,7 +132,7 @@ const AboutFR = () => {
       >
         <Avatar />
       </motion.div> */}
-      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6 overflow-y-auto">
+      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6 overflow-y-scroll no-scrollbar">
         {/* text */}
         <div className="mt-28 md:mt-8 flex-1 flex flex-col justify-center">
           <motion.h2
@@ -142,21 +142,20 @@ const AboutFR = () => {
             exit="hidden"
             className="h2"
           >
-            <span className="text-accent">L'excellence numérique </span>
-            par l'expertise et l'expérience.
+            <span className="text-accent"> Digital Excellence</span> Through
+            Expertise and Experience.
           </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.4)}
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-[500px] text-[14px] md:text-[16px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
+            className="max-w-[500px] text-[12px] md:text-[14px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            Avec mon studio digitale, j'apporte une richesse de succès et
-            d'expertise de ma carrière florissante au sein de sociétés Fortune
-            500. Avec une expérience résultats exceptionnels, je suis prête à
-            apporter le même niveau d'excellence et de le même niveau
-            d'excellence et de dynamisme à chaque projet que j'entreprendrai.
+            With my butique studio, I bring a wealth of success and expertise
+            from my thriving career in Fortune 500 companies. With a proven
+            track record of delivering exceptional results, I am poised to bring
+            the same level of excellence and drive to every project I undertake.
           </motion.p>
           {/* counter */}
           <motion.div
@@ -233,7 +232,7 @@ const AboutFR = () => {
                     {item.title}
                   </div>
                   <div className="hidden md:flex">-</div>
-                  <div className="text-[14px] text-white/90">{item.stage}</div>
+                  <div className="text-[12px] md:text-[14px] text-white/90">{item.stage}</div>
                   <div className="flex gap-x-4">
                     {item.icons?.map((icon, iconIndex) => {
                       return (
@@ -256,4 +255,4 @@ const AboutFR = () => {
   );
 };
 
-export default AboutFR;
+export default About;

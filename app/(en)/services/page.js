@@ -13,8 +13,8 @@ import { fadeIn } from "@/variants";
 
 const Services = () => {
   return (
-    <div className="h-full bg-primary/30 py-36 flex items-center overflow-y-auto">
-      <div className="container mx-auto overflow-y-auto">
+    <div className="h-full bg-primary/30 py-36 flex items-center overflow-y-scroll no-scrollbar">
+      <div className="container mx-auto overflow-y-scroll no-scrollbar">
         <div className="flex flex-col xl:flex-row gap-x-8">
           {/* text */}
           <div className="text-center mt-28 md:mt-8 flex xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0">
@@ -33,7 +33,7 @@ const Services = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="mb-4 text-[14px] md:text-[16px] max-w-[400px] mx-auto lg:mx-0"
+              className="mb-4 text-[12px] md:text-[14px] max-w-[400px] mx-auto lg:mx-0"
             >
               I am a Full Stack developer leveraging the latest technologies to
               build and deploy scalable web applications. <br />I also provide
