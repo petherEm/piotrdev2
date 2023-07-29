@@ -29,7 +29,7 @@ export default function Home() {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="text-[12px] md:text-[14px] max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
+            className="text-[13px] md:text-[15px] max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
             Unlock Your Digital Success with an Experienced Full Stack Developer
             and Senior Leader in the Financial Industry (Fortune 500) with over

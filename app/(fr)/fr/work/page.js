@@ -32,7 +32,7 @@ const WorkFR = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="text-[12px] md:text-[14px] md:mb-4 max-w-[400px] mx-auto lg:mx-0"
+              className="text-[13px] md:text-[15px] md:mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
               Vous trouverez une sélection de mes travaux en freelance, mettant
               en valeur mon expertise en développement web{" "}

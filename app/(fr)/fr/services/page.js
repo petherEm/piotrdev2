@@ -34,7 +34,7 @@ const ServicesFR = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="mb-4 text-[12px] md:text-[14px] max-w-[400px] mx-auto lg:mx-0"
+              className="mb-4 text-[13px] md:text-[15px] max-w-[400px] mx-auto lg:mx-0"
             >
               Je suis un développeur Full Stack qui utilise les dernières
               technologies pour construire et déployer des applications web

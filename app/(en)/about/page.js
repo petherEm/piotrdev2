@@ -150,7 +150,7 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-[500px] text-[12px] md:text-[14px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
+            className="max-w-[500px] text-[13px] md:text-[15px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
             With my butique studio, I bring a wealth of success and expertise
             from my thriving career in Fortune 500 companies. With a proven

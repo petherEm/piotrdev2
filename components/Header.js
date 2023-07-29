@@ -11,7 +11,7 @@ const Header = () => {
       <div className="container mx-auto">
         <div className="flex flex-row justify-between items-start md:items-center">
           <Link href="/">
-            <img src="/logo5.svg" className="mt-3 md:mt-6 w-[80px] h-[20px] md:w-[150px] md:h-[50px] object-cover"/>
+            <img src="/logo5.svg" className="mt-4 md:mt-6 w-[80px] h-[20px] md:w-[150px] md:h-[50px] object-cover"/>
             {/* <h1 className="text-2xl font-bold">
               vabank<span className="text-4xl font-bold text-red-600">.</span>dev
             </h1> */}

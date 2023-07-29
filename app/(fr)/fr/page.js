@@ -22,19 +22,19 @@ export default function Home() {
             exit="hidden"
           >
             Ensemble dans <br /> la prochaine <br />
-            <span className="text-accent">ère numérique </span>
+            <span className="text-accent">ère digitale </span>
           </motion.h1>
           <motion.p
             variants={fadeIn("down", 0.3)}
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm text-[12px] md:text-[14px] xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
+            className="max-w-sm text-[13px] md:text-[15px] xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
             Débloquez votre succès numérique avec un développeur Full Stack
-            expérimenté et un leader dans l'industrie financière (Fortune
-            500) avec plus de 15 ans d'expérience à vos côtés. Tirez parti de
-            mon expertise pour un développement Web transparent, la science des
+            expérimenté et un leader dans l'industrie financière (Fortune 500)
+            avec plus de 15 ans d'expérience à vos côtés. Tirez parti de mon
+            expertise pour un développement Web transparent, la science des
             données, la stratégie produit et une croissance commerciale
             inégalée.
           </motion.p>
