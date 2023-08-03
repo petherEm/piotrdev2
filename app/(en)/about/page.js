@@ -205,7 +205,7 @@ const About = () => {
           exit="hidden"
           className="flex flex-col w-full xl:max-w-[48%] h-[480px]"
         >
-          <div className="flex gap-x-4 cl:gap-x-8 mx-auto xl:mx-0 mb-4">
+          <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
             {aboutData.map((item, itemIndex) => {
               return (
                 <div
@@ -232,7 +232,9 @@ const About = () => {
                     {item.title}
                   </div>
                   <div className="hidden md:flex">-</div>
-                  <div className="text-[12px] md:text-[14px] text-white/90">{item.stage}</div>
+                  <div className="text-[12px] md:text-[14px] text-white/90">
+                    {item.stage}
+                  </div>
                   <div className="flex gap-x-4">
                     {item.icons?.map((icon, iconIndex) => {
                       return (

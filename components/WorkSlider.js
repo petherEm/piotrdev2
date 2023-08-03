@@ -138,8 +138,14 @@ const WorkSlider = () => {
     <Swiper
       spaceBetween={10}
       pagination={{ clickable: true }}
+      loop={true}
+      freeMode={true}
+      autoplay={{
+        delay: 1000,
+        disableOnInteraction: false,
+      }}
       modules={[Pagination]}
-      className="sm:h-[480px] md:h-[380px]  xl:h-[640px]"
+      className=" h-auto"
     >
       {workSlides.slides.map((slide, index) => {
         return (
@@ -155,12 +161,13 @@ const WorkSlider = () => {
                     noreferrer
                   >
                     <div className="relative rounded-lg overflow-hidden flex items-center justify-center group">
-                      <div className="flex items-center justify-center relative overflow-hidden group h-64 w-full ">
+                      <div className="flex items-center justify-center relative overflow-hidden group w-full ">
                         <Image
                           src={image.path}
                           width={500}
                           height={400}
                           alt="projects"
+                          className="object-contain object-center"
                         />
                         <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700"></div>
 

@@ -82,6 +82,7 @@ const aboutData = [
         title: "Due Diligence Analyst - Benelux, Royal Bank of Scotland",
         stage: "2008 - 2011",
       },
+      
     ],
   },
   {

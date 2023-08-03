@@ -14,7 +14,7 @@ const Work = () => {
   return (
     <div className="h-full bg-primary/30 py-36 flex items-center overflow-y-scroll no-scrollbar">
       <div className="container mx-auto">
-        <div className="flex flex-col xl:flex-row gap-x-8 mt-24">
+        <div className="flex flex-col xl:flex-row gap-x-8 md:mt-24">
           {/* text */}
           <div className="text-center flex xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0">
             <motion.h2
@@ -22,7 +22,7 @@ const Work = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="h2 mt-20 md:mt-10 xl:mt-12"
+              className="h2 mt-4 md:mt-10 xl:mt-12"
             >
               Selected projects
               <span className="text-accent">.</span>
