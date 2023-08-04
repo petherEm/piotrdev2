@@ -29,7 +29,6 @@ export default function RootLayout({ children }) {
       >
         {/* <TopLeftImg /> */}
 
-        <Header />
         {children}
       </body>
     </html>

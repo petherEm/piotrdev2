@@ -9,14 +9,14 @@ import { HiMenu } from "react-icons/hi";
 import Socials from "@/components/Socials";
 
 export const navData = [
-  { name: "home", path: "/" },
-  { name: "about", path: "/about" },
-  { name: "services", path: "/services" },
-  { name: "work", path: "/work" },
-  { name: "contact", path: "/contact" },
+  { name: "home", path: "/fr" },
+  { name: "about", path: "/fr/about" },
+  { name: "services", path: "/fr/services" },
+  { name: "work", path: "/fr/work" },
+  { name: "contact", path: "/fr/contact" },
 ];
 
-const Header = () => {
+const HeaderFR = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const router = useRouter();
@@ -88,4 +88,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderFR;
