@@ -28,7 +28,7 @@ const Header = () => {
         <div className="flex flex-row justify-between items-start md:items-center">
           <Link href="/">
             <img
-              src="/logo5.svg"
+              src="/vabankdev_logo_white.svg"
               className="mt-4 md:mt-6 w-[80px] h-[20px] md:w-[150px] md:h-[50px] object-cover"
             />
           </Link>
