@@ -66,11 +66,12 @@ const workSlides = {
           stack: "React, Next.js, TailwindCSS",
         },
         {
-          title: "Payintel",
-          path: "/demos/payintel.png",
-          link: "https://pay-intel.vercel.app/",
-          stack: "React, Next.js, TailwindCSS, Firebase, NextAuth",
+          title: "Developedia",
+          path: "/demos/developedia.png",
+          link: "https://grafbaseproject.vercel.app/",
+          stack: "React, Next.js, TailwindCSS, Sanity.io",
         },
+        
       ],
     },
 
@@ -81,12 +82,6 @@ const workSlides = {
           path: "/demos/wuclone.png",
           link: "https://truewubankpl.vercel.app/en",
           stack: "React, Next.js, TailwindCSS, NextAuth",
-        },
-        {
-          title: "Developedia",
-          path: "/demos/developedia.png",
-          link: "https://grafbaseproject.vercel.app/",
-          stack: "Next.js, TailwindCSS, Grafbase, NextAuth",
         },
         {
           title: "eCommerce",
@@ -133,6 +128,16 @@ const workSlides = {
           path: "/demos/prevportfolio.png",
           link: "https://newportfolionext-ktkr.vercel.app/",
           stack: "React, Next.js, TailwindCSS, Sanity.io",
+        },
+      ],
+    },
+    {
+      images: [
+        {
+          title: "Payintel",
+          path: "/demos/payintel.png",
+          link: "https://pay-intel.vercel.app/",
+          stack: "React, Next.js, TailwindCSS, Firebase, NextAuth",
         },
       ],
     },
