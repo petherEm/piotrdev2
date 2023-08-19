@@ -83,6 +83,12 @@ const workSlides = {
           stack: "React, Next.js, TailwindCSS, NextAuth",
         },
         {
+          title: "Developedia",
+          path: "/demos/developedia.png",
+          link: "https://grafbaseproject.vercel.app/",
+          stack: "Next.js, TailwindCSS, Grafbase, NextAuth",
+        },
+        {
           title: "eCommerce",
           path: "/demos/electrocommerce.png",
           link: "https://nextcommerce-one-mu.vercel.app/",
