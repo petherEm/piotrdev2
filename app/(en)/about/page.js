@@ -11,6 +11,7 @@ import {
   FaWordpress,
   FaFigma,
   FaPython,
+  
 } from "react-icons/fa";
 import {
   SiNextdotjs,
@@ -21,6 +22,7 @@ import {
   SiFramer,
   SiAdobexd,
   SiAdobephotoshop,
+  SiTypescript,
 } from "react-icons/si";
 
 import Avatar from "@/components/Avatar";
@@ -39,10 +41,12 @@ const aboutData = [
         icons: [
           <FaPython />,
           <FaJs />,
+          <SiTypescript />,
           <FaReact />,
           <SiNextdotjs />,
           <FaNodeJs />,
           <SiTailwindcss />,
+          
         ],
       },
       {

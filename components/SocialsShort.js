@@ -44,6 +44,14 @@ const SocialsShort = () => {
       >
         <RiLinkedinLine />
       </Link>
+      <Link
+        href="https://medium.com/@pether.maciejewski"
+        rel="noopener noreferrer"
+        target="_blank"
+        className="hover:text-accent transition-all duration-300 text-xl md:text-4xl"
+      >
+        <RiMediumLine />
+      </Link>
     </div>
   );
 };

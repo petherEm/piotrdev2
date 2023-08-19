@@ -5,14 +5,15 @@ import Link from "next/link";
 import { useRouter, usePathname } from "next/navigation";
 
 import { HiMenu } from "react-icons/hi";
+import Langs from "@/components/Langs";
 
 import Socials from "@/components/Socials";
 
 export const navData = [
-  { name: "home", path: "/fr" },
-  { name: "about", path: "/fr/about" },
-  { name: "services", path: "/fr/services" },
-  { name: "work", path: "/fr/work" },
+  { name: "accueil", path: "/fr" },
+  { name: "agence", path: "/fr/about" },
+  { name: "expertise", path: "/fr/services" },
+  { name: "projets", path: "/fr/work" },
   { name: "contact", path: "/fr/contact" },
 ];
 
@@ -27,8 +28,8 @@ const HeaderFR = () => {
       <div className="container mx-auto">
         <div className="flex flex-row justify-between items-start md:items-center">
           <Link href="/">
-            <img
-              src="/logo5.svg"
+          <img
+              src="/vabankdev_logo_white.svg"
               className="mt-4 md:mt-6 w-[80px] h-[20px] md:w-[150px] md:h-[50px] object-cover"
             />
           </Link>
@@ -51,6 +52,7 @@ const HeaderFR = () => {
                 </p>
               </Link>
             ))}
+            <Langs />
           </div>
         </div>
       </div>

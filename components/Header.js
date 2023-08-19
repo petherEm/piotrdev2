@@ -7,6 +7,7 @@ import { useRouter, usePathname } from "next/navigation";
 import { HiMenu } from "react-icons/hi";
 
 import Socials from "@/components/Socials";
+import Langs from "@/components/Langs";
 
 export const navData = [
   { name: "home", path: "/" },
@@ -51,6 +52,8 @@ const Header = () => {
                 </p>
               </Link>
             ))}
+            
+            <Langs />
           </div>
         </div>
       </div>
@@ -78,7 +81,6 @@ const Header = () => {
                   {item.name}
                 </Link>
               ))}
-              
             </div>
           )}
           <Socials />

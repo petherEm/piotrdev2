@@ -13,10 +13,10 @@ import Link from "next/link";
 import { useRouter, usePathname } from "next/navigation";
 
 export const navData = [
-  { name: "home", path: "/fr", icon: <HiHome /> },
-  { name: "about", path: "/fr/about", icon: <HiUser /> },
-  { name: "services", path: "/fr/services", icon: <HiRectangleGroup /> },
-  { name: "work", path: "/fr/work", icon: <HiViewColumns /> },
+  { name: "accueil", path: "/fr", icon: <HiHome /> },
+  { name: "agence", path: "/fr/about", icon: <HiUser /> },
+  { name: "expertise", path: "/fr/services", icon: <HiRectangleGroup /> },
+  { name: "projets", path: "/fr/work", icon: <HiViewColumns /> },
   // {
   //   name: "testimonials",
   //   path: "/testimonials",
