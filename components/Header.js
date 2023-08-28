@@ -30,10 +30,10 @@ const Header = () => {
           <Link href="/">
             <img
               src="/vabankdev_logo_white.svg"
-              className="mt-4 md:mt-6 w-[80px] h-[20px] md:w-[150px] md:h-[50px] object-cover"
+              className="mt-4 md:mt-6 w-[110px] h-[50px] md:w-[150px] md:h-[50px] object-cover"
             />
           </Link>
-          <div className="mt-3 md:hidden">
+          <div className="mt-6 md:hidden">
             <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
               <HiMenu className="text-white w-6 h-6" />
             </button>
@@ -52,7 +52,7 @@ const Header = () => {
                 </p>
               </Link>
             ))}
-            
+
             <Langs />
           </div>
         </div>

@@ -34,14 +34,7 @@ const Work = () => {
               exit="hidden"
               className="text-[13px] md:text-[15px] md:mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Featuring a curated selection of my freelance work, highlighting
-              my expertise in web development{" "}
-              <span className="text-white">
-                (JS, React.js, Next.js, TailwindCSS, Node.js, Express.js)
-              </span>
-              . While I am unable to showcase corporate projects due to
-              confidentiality agreements, you can browse through the training
-              and freelance projects that demonstrate my skills.
+              Dive into a handpicked collection of my freelance endeavors, spotlighting my mastery in web development with tools like <span className="text-white">JS/TS, React.js, Next.js, TailwindCSS, Node.js, and Express.js.</span> While my corporate ventures remain under the veil of confidentiality, these training and freelance showcases stand testament to my capabilities.
             </motion.p>
           </div>
           {/* slider */}

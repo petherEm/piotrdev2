@@ -34,16 +34,15 @@ const WorkFR = () => {
               exit="hidden"
               className="text-[13px] md:text-[15px] md:mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Vous trouverez une sélection de mes travaux en freelance, mettant
-              en valeur mon expertise en développement web{" "}
+              Voici une collection soigneusement sélectionnée de mes
+              réalisations en freelance, mettant en lumière ma maîtrise du
+              développement web avec des outils tels que{" "}
               <span className="text-white">
-                (JS, React.js, Next.js, TailwindCSS, Node.js, Express.js)
-              </span>
-              . Bien que je ne sois pas en mesure de présenter des projets
-              d'entreprise en raison d'accords de confidentialité, vous pouvez
-              parcourir les projets de formation. de confidentialité, vous
-              pouvez parcourir les projets de formation et les projets freelance
-              qui démontrent mes compétences.
+                JS/TS, React.js, Next.js, TailwindCSS, Node.js et Express.js.
+              </span>{" "}
+              Bien que mes projets corporatifs restent sous le voile de la
+              confidentialité, ces démonstrations de formation et freelance
+              témoignent de mes compétences.
             </motion.p>
           </div>
           {/* slider */}

@@ -31,12 +31,11 @@ export default function Home() {
             exit="hidden"
             className="max-w-sm text-[13px] md:text-[15px] xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Débloquez votre succès numérique avec un développeur Full Stack
-            expérimenté et un leader dans l'industrie financière (Fortune 500)
-            avec plus de 15 ans d'expérience à vos côtés. Tirez parti de mon
-            expertise pour un développement Web transparent, la science des
-            données, la stratégie produit et une croissance commerciale
-            inégalée.
+            Avec des rôles variés au sein des géants du Fortune 500 à mon actif,
+            je mets à profit cette vaste expertise pour élaborer des solutions
+            digitales sur mesure. Votre entreprise mérite {" "}
+            <span className="text-white">un développeur Full Stack </span>qui
+            comprend la vision globale.
           </motion.p>
 
           {/* btn */}

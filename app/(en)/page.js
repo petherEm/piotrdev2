@@ -31,11 +31,10 @@ export default function Home() {
             exit="hidden"
             className="text-[13px] md:text-[15px] max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Unlock Your Digital Success with an Experienced Full Stack Developer
-            and Senior Leader in the Financial Industry (Fortune 500) with over
-            15 years of experience at Your Side. Leverage my expertise for
-            Seamless Web Development, Data Science, Product Strategy, and
-            Unparalleled Business Growth.
+            With diverse roles in the corporate giants <span className="text-white"> (Fortune 500)</span> under my belt, I now
+            channel that vast expertise into crafting bespoke digital solutions.
+            Your business deserves the  <span className="text-white">Full Stack Developer</span> who understands the bigger
+            picture.
           </motion.p>
 
           {/* btn */}

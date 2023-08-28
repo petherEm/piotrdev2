@@ -84,7 +84,6 @@ const aboutData = [
         title: "Due Diligence Analyst - Benelux, Royal Bank of Scotland",
         stage: "2008 - 2011",
       },
-      
     ],
   },
   {
@@ -155,11 +154,11 @@ const AboutFR = () => {
             exit="hidden"
             className="max-w-[500px] text-[13px] md:text-[15px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            Avec mon studio digitale, j'apporte une richesse de succès et
-            d'expertise de ma carrière florissante au sein de sociétés Fortune
-            500. Avec une expérience résultats exceptionnels, je suis prête à
-            apporter le même niveau d'excellence et de le même niveau
-            d'excellence et de dynamisme à chaque projet que j'entreprendrai.
+            Avec mon studio boutique, j'apporte une richesse de succès et
+            d'expertise issue de ma carrière florissante dans les entreprises du
+            Fortune 500. Fort d'un bilan prouvé de résultats exceptionnels, je
+            suis prêt à apporter le même niveau d'excellence et de détermination
+            à chaque projet que j'entreprends.
           </motion.p>
           {/* counter */}
           <motion.div

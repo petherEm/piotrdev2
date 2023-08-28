@@ -35,14 +35,9 @@ const Services = () => {
               exit="hidden"
               className="mb-4 text-[13px] md:text-[15px] max-w-[400px] mx-auto lg:mx-0"
             >
-              I am a Full Stack developer leveraging the latest technologies to
-              build and deploy scalable web applications. <br />I also provide
-              consulting services in business strategy design leveraging the
-              power of AI to unlock new opportunities for your business. By
-              harnessing AI technologies along with deep data analysis, I can
-              assist you in optimizing processes, enhancing decision-making, and
-              driving innovation, enabling you to stay at the forefront of the
-              digital landscape.
+              <span className="text-white">Full Stack Development:</span> Harnessing cutting-edge technologies, I design, build, and deploy web applications tailored to scale and resonate with your business needs. <br />
+              
+              <span className="text-white">AI-Driven Business Strategy Consultation:</span> Elevate your business by tapping into the transformative power of AI. Leveraging deep data insights, I offer strategies that refine processes, amplify decision-making prowess, and catalyze innovation. Stay not just aligned, but ahead, in the ever-evolving digital era.
             </motion.p>
           </div>
           {/* slider */}

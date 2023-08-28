@@ -71,7 +71,6 @@ const workSlides = {
           link: "https://grafbaseproject.vercel.app/",
           stack: "React, Next.js, TailwindCSS, Sanity.io",
         },
-        
       ],
     },
 
@@ -138,6 +137,12 @@ const workSlides = {
           path: "/demos/payintel.png",
           link: "https://pay-intel.vercel.app/",
           stack: "React, Next.js, TailwindCSS, Firebase, NextAuth",
+        },
+        {
+          title: "Nike Clone",
+          path: "/demos/nikeclone3.png",
+          link: "https://nikeclone-nine.vercel.app/",
+          stack: "Next.js, TailwindCSS",
         },
       ],
     },

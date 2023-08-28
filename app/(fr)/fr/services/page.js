@@ -36,16 +36,19 @@ const ServicesFR = () => {
               exit="hidden"
               className="mb-4 text-[13px] md:text-[15px] max-w-[400px] mx-auto lg:mx-0"
             >
-              Je suis un développeur Full Stack qui utilise les dernières
-              technologies pour construire et déployer des applications web
-              évolutives. <br />Je propose également des services de conseil en
-              conception de stratégies d'entreprise en exploitant la puissance
-              de l'IA pour ouvrir de nouvelles perspectives à votre entreprise.
-              En exploitant les technologies de l'IA avec une analyse
-              approfondie des données, je peux vous aider à optimiser les
-              processus, à améliorer la prise de décision et à stimuler
-              l'innovation, ce qui vous permet de rester à la pointe du paysage
-              numérique.
+              <span className="text-white">Développement Full Stack:</span>{" "}
+              Utilisant des technologies de pointe, je conçois, construis et
+              déploie des applications web adaptées pour évoluer et répondre aux
+              besoins de votre entreprise. <br />
+              <span className="text-white">
+                Consultation Stratégique d'Affaires Pilotée par l'IA:
+              </span>{" "}
+              Élevez votre entreprise en exploitant le pouvoir transformateur de
+              l'IA. En tirant parti des insights approfondis des données, je
+              propose des stratégies qui affinent les processus, amplifient la
+              capacité de prise de décision et catalysent l'innovation. Restez
+              non seulement aligné, mais aussi en avance, dans l'ère numérique
+              en constante évolution.
             </motion.p>
           </div>
           {/* slider */}
