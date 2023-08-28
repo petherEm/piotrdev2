@@ -15,6 +15,7 @@ export const navData = [
   { name: "services", path: "/services" },
   { name: "work", path: "/work" },
   { name: "contact", path: "/contact" },
+  { name: "blog", path: "https://www.piotrmaciejewski.com/articles" },
 ];
 
 const Header = () => {
@@ -30,7 +31,7 @@ const Header = () => {
           <Link href="/">
             <img
               src="/vabankdev_logo_white.svg"
-              className="mt-4 md:mt-6 w-[110px] h-[50px] md:w-[150px] md:h-[50px] object-cover"
+              className="mt-4 md:mt-6 w-[125px] h-[50px] md:w-[150px] md:h-[50px] object-cover"
             />
           </Link>
           <div className="mt-6 md:hidden">
