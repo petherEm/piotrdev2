@@ -19,29 +19,29 @@ const workSlides = {
     {
       images: [
         {
+          title: "PSD Agents in France",
+          path: "/demos/psd_france5.png",
+          link: "https://psdfrance.vercel.app/hexagonview",
+          stack: "Next.js, Mapbox, TailwindCSS",
+        },
+        {
+          title: "Nike Clone",
+          path: "/demos/nikeclone3.png",
+          link: "https://nikeclone-nine.vercel.app/",
+          stack: "Next.js, TailwindCSS",
+        },
+
+        {
           title: "Better GPT",
           path: "/demos/bettergpt.png",
           link: "https://bettergpt.vabank.dev",
           stack: "OpenAI, Next.js, TailwindCSS, Firebase, NextAuth",
         },
         {
-          title: "Car rental",
-          path: "/demos/carshow.png",
-          link: "https://carshow-kappa.vercel.app/",
-          stack: "React/Next.js, TailwindCSS, RapidApi",
-        },
-
-        {
-          title: "Map Inpost",
-          path: "/demos/mapinpost.png",
-          link: "https://inpostfinder.vabank.dev/map",
-          stack: "DeckGL, Next.js, TailwindCSS, Firebase",
-        },
-        {
-          title: "My Training",
-          path: "/demos/corsetorse.png",
-          link: "https://mytraining.vabank.me/",
-          stack: "OpenAI, Next.js, TailwindCSS, MongoDB, NextAuth",
+          title: "Money Transfer Improved",
+          path: "/demos/wuclone2.png",
+          link: "https://wuimprove2.vercel.app/",
+          stack: "Next.js, MongoDB, Zustand, TailwindCSS",
         },
       ],
     },
@@ -77,11 +77,12 @@ const workSlides = {
     {
       images: [
         {
-          title: "WU clone",
-          path: "/demos/wuclone.png",
-          link: "https://truewubankpl.vercel.app/en",
-          stack: "React, Next.js, TailwindCSS, NextAuth",
+          title: "My Training",
+          path: "/demos/corsetorse.png",
+          link: "https://mytraining.vabank.me/",
+          stack: "OpenAI, Next.js, TailwindCSS, MongoDB, NextAuth",
         },
+
         {
           title: "eCommerce",
           path: "/demos/electrocommerce.png",
@@ -133,16 +134,29 @@ const workSlides = {
     {
       images: [
         {
+          title: "Profesor Maciejewska",
+          path: "/demos/alina2.png",
+          link: "https://profesoralina.vercel.app/wdrozenia",
+          stack: "Next.js, TailwindCSS, Shadcn",
+        },
+        {
+          title: "Car rental",
+          path: "/demos/carshow.png",
+          link: "https://carshow-kappa.vercel.app/",
+          stack: "React/Next.js, TailwindCSS, RapidApi",
+        },
+        {
           title: "Payintel",
           path: "/demos/payintel.png",
           link: "https://pay-intel.vercel.app/",
           stack: "React, Next.js, TailwindCSS, Firebase, NextAuth",
         },
+
         {
-          title: "Nike Clone",
-          path: "/demos/nikeclone3.png",
-          link: "https://nikeclone-nine.vercel.app/",
-          stack: "Next.js, TailwindCSS",
+          title: "Map Inpost",
+          path: "/demos/mapinpost.png",
+          link: "https://inpostfinder.vabank.dev/map",
+          stack: "DeckGL, Next.js, TailwindCSS, Firebase",
         },
       ],
     },
@@ -177,7 +191,7 @@ const WorkSlider = () => {
                     noreferrer
                   >
                     <div className="relative rounded-lg overflow-hidden flex items-center justify-center group">
-                      <div className="flex items-center justify-center relative overflow-hidden group w-full ">
+                      <div className="flex items-center justify-center relative overflow-hidden group w-full">
                         <Image
                           src={image.path}
                           width={500}
