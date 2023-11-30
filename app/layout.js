@@ -23,7 +23,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <GoogleAnalytics GA_MEASUREMENT_ID="G-1VYD1C0X5Q" />
       <body
         className={`page bg-black text-white bg-cover bg-no-repeat ${sora.variable} font-sora relative`}
       >
